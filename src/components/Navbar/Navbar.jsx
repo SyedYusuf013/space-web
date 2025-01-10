@@ -12,7 +12,7 @@ const Navbar = ({ setShowLogin }) => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4 text-2xl font-bold text-white">
             <a href="#hero" ><img className="w-10" src={Logo} alt="logo" /></a>
-            <span>SFY-SPACE</span>
+            <a href="#hero"><span>SFY-SPACE</span></a>
           </div>
           <div className="hidden text-white md:block">
             <ul className="flex items-center gap-6 py-4 text-xl sm:py-0">
